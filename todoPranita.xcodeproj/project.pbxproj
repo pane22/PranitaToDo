@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA90A78233F3DE600EFCCD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A77233F3DE600EFCCD5 /* AppDelegate.swift */; };
+		EDA90A7A233F3DE600EFCCD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A79233F3DE600EFCCD5 /* SceneDelegate.swift */; };
+		EDA90A7C233F3DE600EFCCD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A7B233F3DE600EFCCD5 /* ViewController.swift */; };
+		EDA90A7F233F3DE600EFCCD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA90A7D233F3DE600EFCCD5 /* Main.storyboard */; };
+		EDA90A82233F3DE700EFCCD5 /* todoPranita.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A80233F3DE700EFCCD5 /* todoPranita.xcdatamodeld */; };
+		EDA90A84233F3DF200EFCCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA90A83233F3DF200EFCCD5 /* Assets.xcassets */; };
+		EDA90A87233F3DF200EFCCD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA90A85233F3DF200EFCCD5 /* LaunchScreen.storyboard */; };
+		EDA90A8F233F6A7400EFCCD5 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A8E233F6A7400EFCCD5 /* ToDoTableViewCell.swift */; };
+		EDA90A91233F6E2400EFCCD5 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A90233F6E2400EFCCD5 /* AddTaskViewController.swift */; };
+		EDA90A94233F787200EFCCD5 /* ToDo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A92233F787200EFCCD5 /* ToDo+CoreDataClass.swift */; };
+		EDA90A95233F787200EFCCD5 /* ToDo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A93233F787200EFCCD5 /* ToDo+CoreDataProperties.swift */; };
+		EDA90A9B233F79AB00EFCCD5 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A9A233F79AB00EFCCD5 /* Database.swift */; };
+		EDA90A9D233F7EAA00EFCCD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA90A9C233F7EAA00EFCCD5 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDA90A74233F3DE600EFCCD5 /* todoPranita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoPranita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA90A77233F3DE600EFCCD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA90A79233F3DE600EFCCD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDA90A7B233F3DE600EFCCD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDA90A7E233F3DE600EFCCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA90A81233F3DE700EFCCD5 /* todoPranita.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoPranita.xcdatamodel; sourceTree = "<group>"; };
+		EDA90A83233F3DF200EFCCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA90A86233F3DF200EFCCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA90A88233F3DF200EFCCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA90A8E233F6A7400EFCCD5 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		EDA90A90233F6E2400EFCCD5 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		EDA90A92233F787200EFCCD5 /* ToDo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EDA90A93233F787200EFCCD5 /* ToDo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EDA90A9A233F79AB00EFCCD5 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		EDA90A9C233F7EAA00EFCCD5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA90A71233F3DE600EFCCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA90A6B233F3DE600EFCCD5 = {
+			isa = PBXGroup;
+			children = (
+				EDA90A92233F787200EFCCD5 /* ToDo+CoreDataClass.swift */,
+				EDA90A93233F787200EFCCD5 /* ToDo+CoreDataProperties.swift */,
+				EDA90A76233F3DE600EFCCD5 /* todoPranita */,
+				EDA90A75233F3DE600EFCCD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA90A75233F3DE600EFCCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA90A74233F3DE600EFCCD5 /* todoPranita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA90A76233F3DE600EFCCD5 /* todoPranita */ = {
+			isa = PBXGroup;
+			children = (
+				EDA90A77233F3DE600EFCCD5 /* AppDelegate.swift */,
+				EDA90A79233F3DE600EFCCD5 /* SceneDelegate.swift */,
+				EDA90A7B233F3DE600EFCCD5 /* ViewController.swift */,
+				EDA90A9A233F79AB00EFCCD5 /* Database.swift */,
+				EDA90A7D233F3DE600EFCCD5 /* Main.storyboard */,
+				EDA90A8E233F6A7400EFCCD5 /* ToDoTableViewCell.swift */,
+				EDA90A90233F6E2400EFCCD5 /* AddTaskViewController.swift */,
+				EDA90A83233F3DF200EFCCD5 /* Assets.xcassets */,
+				EDA90A85233F3DF200EFCCD5 /* LaunchScreen.storyboard */,
+				EDA90A88233F3DF200EFCCD5 /* Info.plist */,
+				EDA90A80233F3DE700EFCCD5 /* todoPranita.xcdatamodeld */,
+				EDA90A9C233F7EAA00EFCCD5 /* Extensions.swift */,
+			);
+			path = todoPranita;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA90A73233F3DE600EFCCD5 /* todoPranita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA90A8B233F3DF200EFCCD5 /* Build configuration list for PBXNativeTarget "todoPranita" */;
+			buildPhases = (
+				EDA90A70233F3DE600EFCCD5 /* Sources */,
+				EDA90A71233F3DE600EFCCD5 /* Frameworks */,
+				EDA90A72233F3DE600EFCCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todoPranita;
+			productName = todoPranita;
+			productReference = EDA90A74233F3DE600EFCCD5 /* todoPranita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA90A6C233F3DE600EFCCD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SwarajyaIT;
+				TargetAttributes = {
+					EDA90A73233F3DE600EFCCD5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EDA90A6F233F3DE600EFCCD5 /* Build configuration list for PBXProject "todoPranita" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA90A6B233F3DE600EFCCD5;
+			productRefGroup = EDA90A75233F3DE600EFCCD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA90A73233F3DE600EFCCD5 /* todoPranita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA90A72233F3DE600EFCCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA90A87233F3DF200EFCCD5 /* LaunchScreen.storyboard in Resources */,
+				EDA90A84233F3DF200EFCCD5 /* Assets.xcassets in Resources */,
+				EDA90A7F233F3DE600EFCCD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA90A70233F3DE600EFCCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA90A7C233F3DE600EFCCD5 /* ViewController.swift in Sources */,
+				EDA90A9B233F79AB00EFCCD5 /* Database.swift in Sources */,
+				EDA90A95233F787200EFCCD5 /* ToDo+CoreDataProperties.swift in Sources */,
+				EDA90A91233F6E2400EFCCD5 /* AddTaskViewController.swift in Sources */,
+				EDA90A82233F3DE700EFCCD5 /* todoPranita.xcdatamodeld in Sources */,
+				EDA90A78233F3DE600EFCCD5 /* AppDelegate.swift in Sources */,
+				EDA90A9D233F7EAA00EFCCD5 /* Extensions.swift in Sources */,
+				EDA90A7A233F3DE600EFCCD5 /* SceneDelegate.swift in Sources */,
+				EDA90A94233F787200EFCCD5 /* ToDo+CoreDataClass.swift in Sources */,
+				EDA90A8F233F6A7400EFCCD5 /* ToDoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA90A7D233F3DE600EFCCD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA90A7E233F3DE600EFCCD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA90A85233F3DF200EFCCD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA90A86233F3DF200EFCCD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA90A89233F3DF200EFCCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA90A8A233F3DF200EFCCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA90A8C233F3DF200EFCCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFRFP6ZDLY;
+				INFOPLIST_FILE = todoPranita/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarajyait.todoPranita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA90A8D233F3DF200EFCCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFRFP6ZDLY;
+				INFOPLIST_FILE = todoPranita/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarajyait.todoPranita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA90A6F233F3DE600EFCCD5 /* Build configuration list for PBXProject "todoPranita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA90A89233F3DF200EFCCD5 /* Debug */,
+				EDA90A8A233F3DF200EFCCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA90A8B233F3DF200EFCCD5 /* Build configuration list for PBXNativeTarget "todoPranita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA90A8C233F3DF200EFCCD5 /* Debug */,
+				EDA90A8D233F3DF200EFCCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDA90A80233F3DE700EFCCD5 /* todoPranita.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDA90A81233F3DE700EFCCD5 /* todoPranita.xcdatamodel */,
+			);
+			currentVersion = EDA90A81233F3DE700EFCCD5 /* todoPranita.xcdatamodel */;
+			path = todoPranita.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDA90A6C233F3DE600EFCCD5 /* Project object */;
+}
